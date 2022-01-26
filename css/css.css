@@ -1,35 +1,59 @@
+/* Para el body de toda la pagina */
 body{
     background-color: whitesmoke;
+    margin: 0;
 }
+
+/*Menu de arriba*/
 .menu{
-    background-color: red;
+    background-color: #3F377A;
     height: 200px;
     width: 100%;
     margin-top: 0;
+
 }
+/* Social media y links con fotos, tambien esta anidado con la parte de arriba */
 .socialmedia{
     text-align: center;
-    font-size: 15px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .menusocialmedia{
-    height: auto;
-    width: 90px;
-    position: relative;
+    font-family:'Times New Roman', Times, serif;
+    height: 30px;
+    width: 150px;
+    display: inline-block;
     float: right;
-    margin-right: 50px;
-    margin-top: 70px;
+    margin-right: 20px;
+    margin-top: 60px;
 }
 .facebook{
-    height: 20px;
-    width: 20px;
+    height: 35px;
+    width: 35px;
+    
 }
 .instagram{
-    height: 20px;
-    width: 20px;
-    padding-left: 8px;
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+   
 }
 .whatsapp{
-    height: 20px;
-    width: 20px;
-    padding-left: 5px;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    
+}
+/* Fin de la parte de arriba */
+
+/* Textos en pantalla, uso comun, sin modificaciones  */
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Esto es para un ejemplo */
+
+.hola{
+    text-decoration:underline;
 }
